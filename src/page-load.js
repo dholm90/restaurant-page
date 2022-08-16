@@ -41,6 +41,10 @@ export default function loadPage() {
     menu.innerText = 'Menu';
     contact.innerText = 'Contact';
 
+    home.setAttribute('id', 'homeButton');
+    menu.setAttribute('id', 'menuButton');
+    contact.setAttribute('id', 'contactButton');
+
     nav.classList.add('nav');
 
     nav.appendChild(ul);
